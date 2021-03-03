@@ -1,0 +1,126 @@
+.query__body {
+    position: absolute;
+    left: 26.56%;
+    right: 26.46%;
+    top: 4.04%;
+    bottom: 44.92%;
+
+    width: 481px;
+    height: 392px;
+
+    background: #F7F5F9;
+    border-radius: 12px;
+
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+
+}
+
+.query__title {
+    position: absolute;
+    width: 168px;
+    height: 20px;
+    left: 40px;
+    top: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+    display: flex;
+    align-items: center;
+
+    color: #3B3D43;
+}
+
+/*.query__form {*/
+/*    position: absolute;*/
+/*    width: 401px;*/
+/*    left: 40px;*/
+/*    top: 85px;*/
+/*}*/
+
+.form__field-name {
+    /*Element*/
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    left: 40px;
+    top: 85px;
+
+    /*Inner text*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D0C9D6;
+
+    /*Border*/
+    border: 1px solid #854FC8;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+.form__field-phone {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    left: 40px;
+    top: 158px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D0C9D6;
+
+    /*Border*/
+    border: 1px solid #854FC8;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+.form__field-email {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    left: 40px;
+    top: 231px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D0C9D6;
+
+    /*Border*/
+    border: 1px solid #854FC8;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+
+.form__button-send {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    left: 40px;
+    top: 304px;
+    background: #6979F8;
+
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+
+    /*Border*/
+    border: 1px solid #854FC8;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
